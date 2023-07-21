@@ -1,9 +1,9 @@
 
 --Funciones de agregado en SQL (Al final del Scrio se encuentran un resumen de las mas utilizadas 
 --Las funciones agregadas de SQL son funciones especiales que se utilizan para
---realizar cálculos y operaciones en un conjunto de datos. Para usar estas funciones
---SQL, debe usar la Cláusula GROUP BY y la HAVING de la instrucción SELECT..
---Las siguientes son las funciones SQL agregadas comúnmente utilizadas:
+--realizar cï¿½lculos y operaciones en un conjunto de datos. Para usar estas funciones
+--SQL, debe usar la Clï¿½usula GROUP BY y la HAVING de la instrucciï¿½n SELECT..
+--Las siguientes son las funciones SQL agregadas comï¿½nmente utilizadas:
 go
 --Alias  Comodin en la tabla o Campo en el select 
 SELECT AL.NOMBRE ,AL.APMATERNO AS 'apellido 2',AL.IIDSEXO AS 'GENERO'
@@ -153,183 +153,183 @@ WHERE NOT EXISTS (SELECT DO.NOMBRE FROM Docente DO WHERE DO.IIDDOCENTE= 1)
 
 
 
---Las siguientes son las funciones SQL agregadas comúnmente utilizadas:
---AVG()– devuelve el promedio de un conjunto.
---COUNT()– devuelve el número de elementos en un conjunto.
+--Las siguientes son las funciones SQL agregadas comï¿½nmente utilizadas:
+--AVG()ï¿½ devuelve el promedio de un conjunto.
+--COUNT()ï¿½ devuelve el nï¿½mero de elementos en un conjunto.
 
 
---MAX()– devuelve el valor más alto (máximo) en un conjunto de
+--MAX()ï¿½ devuelve el valor mï¿½s alto (mï¿½ximo) en un conjunto de
 --valores.
---MIN()– devuelve el valor mínimo en un conjunto
---SUM()– devuelve la suma de todos o valores distintos en un conjunto
---Excepto por la función COUNT(), las funciones agregadas de SQL ignoran
+--MIN()ï¿½ devuelve el valor mï¿½nimo en un conjunto
+--SUM()ï¿½ devuelve la suma de todos o valores distintos en un conjunto
+--Excepto por la funciï¿½n COUNT(), las funciones agregadas de SQL ignoran
 --nulo.
 --Funciones de cadena SQL
 --Las funciones de cadena son funciones predefinidas en SQL que se utilizan para
 --manipular cadenas de caracteres. Algunas funciones SQL comunes incluyen:
---CHARINDEX() – Retorna la posición inicial.
---CONCAT() – Devuelve una cadena como resultado de una concatenación.
---LEFT() – Extraiga un número caracteres comenzando desde la izquierda.
---LEN() – Devuelve el número de caracteres, sin incluir los espacios finales.
---LOWER() – Devuelve una expresión de caracteres en minúsculas.
---LTRIM() – Eliminar los espacios iniciales de una cadena de caracteres.
---SUBSGTRING() – devuelve parte de un carácter.
---PATINDEX() – Encuentra la posición de un patrón en una cadena..
---REPLACE() – Reemplaza los valores de una cadena especificada.
---RIGHT() – Extrae caracteres del lado derecho de una cadena de texto.
---RTRIM() – Para truncar los espacios en blanco finales de una cadena.
---UPPER() – Convertir una cadena a mayúsculas
+--CHARINDEX() ï¿½ Retorna la posiciï¿½n inicial.
+--CONCAT() ï¿½ Devuelve una cadena como resultado de una concatenaciï¿½n.
+--LEFT() ï¿½ Extraiga un nï¿½mero caracteres comenzando desde la izquierda.
+--LEN() ï¿½ Devuelve el nï¿½mero de caracteres, sin incluir los espacios finales.
+--LOWER() ï¿½ Devuelve una expresiï¿½n de caracteres en minï¿½sculas.
+--LTRIM() ï¿½ Eliminar los espacios iniciales de una cadena de caracteres.
+--SUBSGTRING() ï¿½ devuelve parte de un carï¿½cter.
+--PATINDEX() ï¿½ Encuentra la posiciï¿½n de un patrï¿½n en una cadena..
+--REPLACE() ï¿½ Reemplaza los valores de una cadena especificada.
+--RIGHT() ï¿½ Extrae caracteres del lado derecho de una cadena de texto.
+--RTRIM() ï¿½ Para truncar los espacios en blanco finales de una cadena.
+--UPPER() ï¿½ Convertir una cadena a mayï¿½sculas
 --Funciones de fecha y hora en SQL
 --SQL incluye varias funciones de fecha y hora para trabajar con valores de fecha y
---hora en consultas y actualizaciones de datos. Algunas de las funciones SQL más
+--hora en consultas y actualizaciones de datos. Algunas de las funciones SQL mï¿½s
 --comunes incluyen:
---CURRENT_TIMESTAMP() – devuelve la marca de tiempo actual del
+--CURRENT_TIMESTAMP() ï¿½ devuelve la marca de tiempo actual del
 --sistema.
 
 
---CURRENT_TIMEZONE() – Retorna el nombre de la zona horaria del
+--CURRENT_TIMEZONE() ï¿½ Retorna el nombre de la zona horaria del
 --servidor.
---CURRENT_TIMEZONE_ID() – Devuelve el ID de la zona horaria de SQL
+--CURRENT_TIMEZONE_ID() ï¿½ Devuelve el ID de la zona horaria de SQL
 --server
---DATEADD() – Modifica una fecha agregando un valor.
---DATEDIFF() –Calcula la diferencia entre dos fechas.
---FECHADIFF_BIG() – Retorna un entero grande para la diferencia de
+--DATEADD() ï¿½ Modifica una fecha agregando un valor.
+--DATEDIFF() ï¿½Calcula la diferencia entre dos fechas.
+--FECHADIFF_BIG() ï¿½ Retorna un entero grande para la diferencia de
 --fechas.
---DATEFROMPARTS() – Devuelve un valor de fecha para el año, mes o día.
---DATENAME() – Devuelve un nombre que representa la parte de fecha.
---DATEPART() – Encontrar una parte determinada de la fecha especificada.
---DATETIME2FROMPARTS() – Devuelve un valor datetime2.
---DATETIMEFROMPARTS() – Devuelve un valor de fecha y hora.
---DAY() – Devuelve un entero que representa el día de una fecha dada.
---EOMONTH() – Devuelve el el último día del mes.
---GETDATE() – Retorna la fecha y hora actual en el servidor SQL.
---GETUTCDATE() – Devuelve la fecha y hora actual como hora UTC.
---ISDATE() – Verifica si un valor es una FECHA, HORA o FECHA HORA
---válida
---MONTH() – Devuelve un número entero que representa el mes de una
+--DATEFROMPARTS() ï¿½ Devuelve un valor de fecha para el aï¿½o, mes o dï¿½a.
+--DATENAME() ï¿½ Devuelve un nombre que representa la parte de fecha.
+--DATEPART() ï¿½ Encontrar una parte determinada de la fecha especificada.
+--DATETIME2FROMPARTS() ï¿½ Devuelve un valor datetime2.
+--DATETIMEFROMPARTS() ï¿½ Devuelve un valor de fecha y hora.
+--DAY() ï¿½ Devuelve un entero que representa el dï¿½a de una fecha dada.
+--EOMONTH() ï¿½ Devuelve el el ï¿½ltimo dï¿½a del mes.
+--GETDATE() ï¿½ Retorna la fecha y hora actual en el servidor SQL.
+--GETUTCDATE() ï¿½ Devuelve la fecha y hora actual como hora UTC.
+--ISDATE() ï¿½ Verifica si un valor es una FECHA, HORA o FECHA HORA
+--vï¿½lida
+--MONTH() ï¿½ Devuelve un nï¿½mero entero que representa el mes de una
 --fecha.
---SMALLDATETIMEFROMPARTS() – Retorna un valor de fecha y hora
+--SMALLDATETIMEFROMPARTS() ï¿½ Retorna un valor de fecha y hora
 --corta.
---SWITCHOFFSET() – cambia el valor de DATETIMEOFFSET a nueva zona.
---SYSDATETIME() – Devuelve un valor datetime2 que contiene la fecha y la
+--SWITCHOFFSET() ï¿½ cambia el valor de DATETIMEOFFSET a nueva zona.
+--SYSDATETIME() ï¿½ Devuelve un valor datetime2 que contiene la fecha y la
 --hora.
---SYSDATETIMEOFFSET() – Devuelve el datetimeoffset para datetime y
+--SYSDATETIMEOFFSET() ï¿½ Devuelve el datetimeoffset para datetime y
 --offset.
---SYSUTCDATETIME() – Devuelve el valor UTC datetime2 para la fecha y la
+--SYSUTCDATETIME() ï¿½ Devuelve el valor UTC datetime2 para la fecha y la
 --hora.
---TIMEFROMPARTS() – Devuelve un valor de tiempo para los datos de
+--TIMEFROMPARTS() ï¿½ Devuelve un valor de tiempo para los datos de
 --tiempo.
---TODATETIMEOFFSET() –Devuelve un valor datetimeoffset para un
+--TODATETIMEOFFSET() ï¿½Devuelve un valor datetimeoffset para un
 --datetime2.
---YEAR() – Devuelve un número entero que representa el año de una fecha
+--YEAR() ï¿½ Devuelve un nï¿½mero entero que representa el aï¿½o de una fecha
 --dada.
---Funciones de conversión de TSQL
+--Funciones de conversiï¿½n de TSQL
 --Estas funciones SQL permiten convertir datos de un tipo de datos a otro, lo que es
---útil cuando se requiere un tipo de datos específico para una operación
---determinada. Por ejemplo, se puede convertir un número en una fecha.
---CAST() – convierte una expresión de un tipo de datos a otro.
---CONVERT() – Similar a CAST, pero con estilo de formato para fecha y la
+--ï¿½til cuando se requiere un tipo de datos especï¿½fico para una operaciï¿½n
+--determinada. Por ejemplo, se puede convertir un nï¿½mero en una fecha.
+--CAST() ï¿½ convierte una expresiï¿½n de un tipo de datos a otro.
+--CONVERT() ï¿½ Similar a CAST, pero con estilo de formato para fecha y la
 --hora.
---PARSE() – Para convertir una cadena en tipos de fecha/hora y números.
---TRY_CAST() – Igual a cast, convierte una expresión de un tipo de datos a
+--PARSE() ï¿½ Para convertir una cadena en tipos de fecha/hora y nï¿½meros.
+--TRY_CAST() ï¿½ Igual a cast, convierte una expresiï¿½n de un tipo de datos a
 --otro.
---TRY_CONVERT() –Similar a CONVERT, pero devuelve NULL y no error.
---TRY_PARSE() –Similar a PARSE, pero devuelve NULL y no error
+--TRY_CONVERT() ï¿½Similar a CONVERT, pero devuelve NULL y no error.
+--TRY_PARSE() ï¿½Similar a PARSE, pero devuelve NULL y no error
 --Es importante recordar que al convertir de un tipo de datos a otro, se pueden
---perder datos y generar un error. Siempre es recomendable validar la conversión
+--perder datos y generar un error. Siempre es recomendable validar la conversiï¿½n
 --antes de realizarla.
---Funciones matemáticas de SQL Server
---Las funciones matemáticas en SQL son herramientas útiles para realizar cálculos y
+--Funciones matemï¿½ticas de SQL Server
+--Las funciones matemï¿½ticas en SQL son herramientas ï¿½tiles para realizar cï¿½lculos y
 --transformaciones de datos en una base de datos. Algunas de las funciones SQL
---matemáticas más comunes incluyen:
---ABS() – obtiene el valor absoluto o el valor absoluto positivo.
---ACOS() – Esta función se usa para obtener el ángulo en radianes.
---ASIN() – Obtiene el ángulo en radianes, se conoce como arcoseno.
---ATAN() – Retorna el ángulo en radianes, se conoce como arcotangente.
---CEILING() – obtiene el valor más pequeño, >= que el numérica
+--matemï¿½ticas mï¿½s comunes incluyen:
+--ABS() ï¿½ obtiene el valor absoluto o el valor absoluto positivo.
+--ACOS() ï¿½ Esta funciï¿½n se usa para obtener el ï¿½ngulo en radianes.
+--ASIN() ï¿½ Obtiene el ï¿½ngulo en radianes, se conoce como arcoseno.
+--ATAN() ï¿½ Retorna el ï¿½ngulo en radianes, se conoce como arcotangente.
+--CEILING() ï¿½ obtiene el valor mï¿½s pequeï¿½o, >= que el numï¿½rica
 --especificada.
---COS() – obtiene el valor del coseno trigonométrico.
---COT() – obtiene el valor de la cotangente trigonométrica.
+--COS() ï¿½ obtiene el valor del coseno trigonomï¿½trico.
+--COT() ï¿½ obtiene el valor de la cotangente trigonomï¿½trica.
 
 
---DEGREES() – convierte un ángulo radiante en grados.
---EXP() – obtiene un valor exponencial de la expresión flotante dada.
---FLOOR() – obtiene el valor entero más grande, <= que el número dad0.
---LOG() – obtiene el logaritmo natural de la expresión flotante dada.
---LOG10() – obtener el logarítmico en base 10 de la expresión flotante dada.
---PI() – obtiene el valor constante de PI, que es aproximadamente igual a
+--DEGREES() ï¿½ convierte un ï¿½ngulo radiante en grados.
+--EXP() ï¿½ obtiene un valor exponencial de la expresiï¿½n flotante dada.
+--FLOOR() ï¿½ obtiene el valor entero mï¿½s grande, <= que el nï¿½mero dad0.
+--LOG() ï¿½ obtiene el logaritmo natural de la expresiï¿½n flotante dada.
+--LOG10() ï¿½ obtener el logarï¿½tmico en base 10 de la expresiï¿½n flotante dada.
+--PI() ï¿½ obtiene el valor constante de PI, que es aproximadamente igual a
 --3,14.
---POWER() –Retorna el poder de la expresión o el valor especificado.
---RADIANS() – convierte el ángulo dado en un ángulo equivalente en
+--POWER() ï¿½Retorna el poder de la expresiï¿½n o el valor especificado.
+--RADIANS() ï¿½ convierte el ï¿½ngulo dado en un ï¿½ngulo equivalente en
 --radianes.
---RAND() – obtener el positivo, y el valor será mayor o igual a 0.0 y menor a
+--RAND() ï¿½ obtener el positivo, y el valor serï¿½ mayor o igual a 0.0 y menor a
 --1.
---ROUND() – Redondea a la longitud o precisión especificada.
---SIGN() – Obtiene el signo de la expresión, Positivo (+), Negativo (-) o Cero
+--ROUND() ï¿½ Redondea a la longitud o precisiï¿½n especificada.
+--SIGN() ï¿½ Obtiene el signo de la expresiï¿½n, Positivo (+), Negativo (-) o Cero
 --(0).
---SIN() – Devuelve el valor trigonométrico SINE en radianes para el ángulo
+--SIN() ï¿½ Devuelve el valor trigonomï¿½trico SINE en radianes para el ï¿½ngulo
 --dado.
---SQRT() – calcula la raíz cuadrada de un número o valor dado.
---SQUARE() – calcula el cuadrado de un valor específico o un número
+--SQRT() ï¿½ calcula la raï¿½z cuadrada de un nï¿½mero o valor dado.
+--SQUARE() ï¿½ calcula el cuadrado de un valor especï¿½fico o un nï¿½mero
 --individual.
---TAN() – Obtiene el valor en radianes de la tangente trigonométrica del
---ángulo dado.
---Funciones de Categoría TSQL
---Las funciones SQL de categoría en TSQL (Transact-SQL) son funciones que
---permiten clasificar y categorizar datos en función de criterios específicos. Algunas
---de las funciones de categoría más comunes en TSQL incluyen:
---ROW_NUMBER () – Serializa las filas del conjunto de resultados
+--TAN() ï¿½ Obtiene el valor en radianes de la tangente trigonomï¿½trica del
+--ï¿½ngulo dado.
+--Funciones de Categorï¿½a TSQL
+--Las funciones SQL de categorï¿½a en TSQL (Transact-SQL) son funciones que
+--permiten clasificar y categorizar datos en funciï¿½n de criterios especï¿½ficos. Algunas
+--de las funciones de categorï¿½a mï¿½s comunes en TSQL incluyen:
+--ROW_NUMBER () ï¿½ Serializa las filas del conjunto de resultados
 --particionado.
---RANK () – Devuelve el rango de un valor en una lista determinada.
---DENSE_RANK () – Devuelve la posición relativa de las filas dentro del
+--RANK () ï¿½ Devuelve el rango de un valor en una lista determinada.
+--DENSE_RANK () ï¿½ Devuelve la posiciï¿½n relativa de las filas dentro del
 --conjunto.
---NTILE () – divide las filas en grupos.
+--NTILE () ï¿½ divide las filas en grupos.
 
---Estas funciones de categoría son útiles para manipular y clasificar los datos en una
---tabla, lo que es esencial para realizar análisis y obtener información valiosa sobre
+--Estas funciones de categorï¿½a son ï¿½tiles para manipular y clasificar los datos en una
+--tabla, lo que es esencial para realizar anï¿½lisis y obtener informaciï¿½n valiosa sobre
 --los datos. Al utilizarlas, es importante tener en cuenta el impacto en el
---rendimiento y elegir la función adecuada para cada situación.
---Funciones analíticas de TSQL
---Las funciones SQL Server Analíticas calculan un valor agregado en función de un
+--rendimiento y elegir la funciï¿½n adecuada para cada situaciï¿½n.
+--Funciones analï¿½ticas de TSQL
+--Las funciones SQL Server Analï¿½ticas calculan un valor agregado en funciï¿½n de un
 --grupo de filas. Sin embargo, a diferencia de las funciones agregadas, las funciones
---analíticas pueden devolver varias filas para cada grupo.
---CUME_DIST() –calcula valores de distribución acumulativos de filas.
---FIRST_VALUE() – Para devolver el primer valor en un conjunto ordenado
---LAST_VALUE() –Para devolver el ultimo valor en un conjunto ordenado
---LAG() – Accede a los datos de la fila anterior.
---LEAD() – Accede a los datos de la fila siguiente.
---PERCENT_RANK() – Similar a la función CUME_DIST, que esta al
+--analï¿½ticas pueden devolver varias filas para cada grupo.
+--CUME_DIST() ï¿½calcula valores de distribuciï¿½n acumulativos de filas.
+--FIRST_VALUE() ï¿½ Para devolver el primer valor en un conjunto ordenado
+--LAST_VALUE() ï¿½Para devolver el ultimo valor en un conjunto ordenado
+--LAG() ï¿½ Accede a los datos de la fila anterior.
+--LEAD() ï¿½ Accede a los datos de la fila siguiente.
+--PERCENT_RANK() ï¿½ Similar a la funciï¿½n CUME_DIST, que esta al
 --principio.
---PERCENTILE_CONT() – calcula un percentil en una distribución de la
+--PERCENTILE_CONT() ï¿½ calcula un percentil en una distribuciï¿½n de la
 --columna.
---PERCENTILE_DISC() – calcula un percentil específico para valores
+--PERCENTILE_DISC() ï¿½ calcula un percentil especï¿½fico para valores
 --ordenados en un conjunto de filas.
---Estas funciones SQL son muy útiles para realizar análisis avanzados de datos en
---consultas complejas y para obtener información valiosa sobre la estructura y la
---relación de los datos en una tabla. Al utilizarlas, es importante tener en cuenta el
---impacto en el rendimiento y elegir la función adecuada para cada situación.
---Funciones de configuración de TSQL
---Las funciones de configuración en TSQL (Transact-SQL) son funciones SQL que
---permiten obtener información sobre la configuración del sistema y la instancia de
---SQL Server en la que se está ejecutando la consulta. Estas funciones son útiles
---para realizar tareas como verificar el espacio disponible en disco, la versión de
---SQL Server y la configuración de red.
+--Estas funciones SQL son muy ï¿½tiles para realizar anï¿½lisis avanzados de datos en
+--consultas complejas y para obtener informaciï¿½n valiosa sobre la estructura y la
+--relaciï¿½n de los datos en una tabla. Al utilizarlas, es importante tener en cuenta el
+--impacto en el rendimiento y elegir la funciï¿½n adecuada para cada situaciï¿½n.
+--Funciones de configuraciï¿½n de TSQL
+--Las funciones de configuraciï¿½n en TSQL (Transact-SQL) son funciones SQL que
+--permiten obtener informaciï¿½n sobre la configuraciï¿½n del sistema y la instancia de
+--SQL Server en la que se estï¿½ ejecutando la consulta. Estas funciones son ï¿½tiles
+--para realizar tareas como verificar el espacio disponible en disco, la versiï¿½n de
+--SQL Server y la configuraciï¿½n de red.
 
 
---Algunas de las funciones de configuración más comunes en TSQL son:
---@@VERSION() – Devuelve información sobre la versión de SQL Server.
---@@SPID() – Devuelve el identificador de proceso (SPID) del proceso
+--Algunas de las funciones de configuraciï¿½n mï¿½s comunes en TSQL son:
+--@@VERSION() ï¿½ Devuelve informaciï¿½n sobre la versiï¿½n de SQL Server.
+--@@SPID() ï¿½ Devuelve el identificador de proceso (SPID) del proceso
 --actual.
---@@SERVERNAME() – esta función devuelve el nombre del servidor de
+--@@SERVERNAME() ï¿½ esta funciï¿½n devuelve el nombre del servidor de
 --SQL.
---@@TOTAL_MEMORY() – Devuelve la cantidad total de memoria en
+--@@TOTAL_MEMORY() ï¿½ Devuelve la cantidad total de memoria en
 --megabytes.
---@@CPU_BUSY() – Devuelve el tiempo total de CPU utilizado en
+--@@CPU_BUSY() ï¿½ Devuelve el tiempo total de CPU utilizado en
 --milisegundos.
---@@MAX_CONNECTIONS() – Devuelve el número máximo de conexiones
---simultáneas permitidas en el servidor.
---Estas funciones de configuración son útiles para obtener información sobre el
---entorno en el que se está ejecutando una consulta, lo que es esencial para tomar
+--@@MAX_CONNECTIONS() ï¿½ Devuelve el nï¿½mero mï¿½ximo de conexiones
+--simultï¿½neas permitidas en el servidor.
+--Estas funciones de configuraciï¿½n son ï¿½tiles para obtener informaciï¿½n sobre el
+--entorno en el que se estï¿½ ejecutando una consulta, lo que es esencial para tomar
 --decisiones informadas y solucionar problemas de rendimiento. Al utilizarlas, es
---importante tener en cuenta el impacto en el rendimiento y elegir la función
---adecuada para cada situación.
+--importante tener en cuenta el impacto en el rendimiento y elegir la funciï¿½n
+--adecuada para cada situaciï¿½n.
